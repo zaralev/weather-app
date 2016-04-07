@@ -18,7 +18,7 @@ function showPosition(position) {
     var apiKey = '20e7a55c4ce94ba8310e8ec530e6f2ed';
     var request = new XMLHttpRequest();
     request.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat="
-    + lat "&lon="+ long + apiKey, false);
+    + lat "&lon="+ long + "&appid="apiKey, false);
     request.send();
 
     request = JSON.parse(request.responseText);
