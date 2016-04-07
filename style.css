@@ -1,0 +1,34 @@
+* {
+  box-sizing:border-box;
+}
+
+.button {
+    background-color: #45D0FF;
+    border: none;
+    border-radius:0.5em;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+  background-color: #70E5FF;
+  cursor: pointer;
+}
+
+
+#container {
+  width:90%;
+  padding: 2em;
+  margin:4em auto 4em auto;
+  background-color:#EEE;
+}
+
+#button {
+  text-align:center;
+  margin: 4em;
+}

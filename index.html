@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Weather App</title>
     <script type="text/javascript" src="weather.js"></script>
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  </head>
-  <body>
-    <button onclick="getLocation()">Try It</button>
-    <p id="demo"></p>
+</head>
 
-  </body>
+<body>
+    <div id="container">
+        <div id="button">
+            <button class="button" onclick="getLocation()">Find your weather!</button>
+        </div>
+        <div id="demo"></div>
+        <div id="picture"></div>
+
+    </div>
+
+</body>
+
 </html>

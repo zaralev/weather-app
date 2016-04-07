@@ -33,12 +33,12 @@ function apiCall(lat, long){
     console.log(request.main.temp);
     var z = parseInt(request.main.temp) -273;
     console.log(z);
-    $("#demo").html("Weather: "+
-           request.weather[0].description + "\r" +
+    $("#demo").append("Weather: "+
+           request.weather[0].description + "<br>" +
            "Temperature: " + z + "ºC");
 
-    if (request.weather[0].id == 802){
-      $("#demo").append("<img src='cloud.png' />");
+    if (request.weather[0].id > 200){
+      $("#picture").append("<img src='http://i.imgur.com/ePlNypi.png' alt='cloudy' />");
     }
 
  }
