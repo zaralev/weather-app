@@ -11,14 +11,14 @@ function getLocation() {
 function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude +
     "<br>Longitude: " + position.coords.longitude;
-    apiCall(position);
+    apiCall(position.coords.latitude, position.coords.longitude);
 }
 
-    function apiCall(position){
+    function apiCall(lat, long){
     var apiKey = '20e7a55c4ce94ba8310e8ec530e6f2ed';
     var request = new XMLHttpRequest();
     request.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat="
-    + position.coords.latitude "&lon="+ position.coords.longitude + apiKey, false);
+    + lat "&lon="+ long + apiKey, false);
     request.send();
 
     request = JSON.parse(request.responseText);
