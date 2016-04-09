@@ -46,12 +46,12 @@ function apiCall(lat, long) {
     console.log(z);
     $('#loading').toggle();
     $('#center').toggle();
-    $("#Celsius").html("<b><i style=\"font-family:'Georgia', serif;\">Weather:</i></b> " +
+    $("#Celsius").html("<b><i style=\"font-size: 1.3em; font-family:'Times', serif;\">Weather:</i></b> " +
         request.weather[0].description + "<br>" +
-        "<b><i style=\"font-family:'Georgia', serif;\">Temperature:</i></b> " + z + "ºC");
-    $("#Fahrenheit").html("<b><i style=\"font-family:'Georgia', serif;\">Weather:</i></b> " +
+        "<b><i style=\"font-size: 1.3em; font-family:'Times', serif;\">Temperature:</i></b> " + z + "ºC");
+    $("#Fahrenheit").html("<b><i style=\"font-size: 1.3em; font-family:'Times', serif;\">Weather:</i></b> " +
         request.weather[0].description + "<br>" +
-        "<b><i style=\"font-family:'Georgia', serif;\">Temperature:</i></b> " + ((parseInt(z) * 1.8) + 32) + "ºF");
+        "<b><i style=\"font-size: 1.3em; font-family:'Times', serif;\">Temperature:</i></b> " + ((parseInt(z) * 1.8) + 32) + "ºF");
 
     switch (request.weather[0].id) {
         case 200:

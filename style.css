@@ -9,14 +9,14 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #5FCEED;
+    background-color: #CCC;
     font-family: 'Helvetica', sans-serif;
 }
 #container {
     width: 90%;
     padding: 2em;
     margin: 4em auto 4em auto;
-    background-color: #A0E6FA;
+    background-color: #FFF;
     text-align: center;
     transition: 0.5s all ease;
 }
@@ -39,7 +39,7 @@ h1 {
     }
 }
 .button {
-    background-color: #FFF;
+    background-color: #DDD;
     border: none;
     border-radius: 0.5em;
     color: #212121;
@@ -82,7 +82,7 @@ h1 {
     margin: 0;
 }
 #toggleButton {
-    background-color: #FFF;
+    background-color: #DDD;
     border: none;
     border-radius: 0.5em;
     color: #212121;
