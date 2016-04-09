@@ -1,34 +1,74 @@
 * {
-  box-sizing:border-box;
+    box-sizing: border-box;
 }
-
+body {
+    background-color: #1199CB;
+    font-family: 'Helvetica', sans-serif;
+}
 .button {
     background-color: #45D0FF;
     border: none;
-    border-radius:0.5em;
+    border-radius: 0.5em;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1em;
     cursor: pointer;
 }
-
 .button:hover {
-  background-color: #70E5FF;
-  cursor: pointer;
+    background-color: #70E5FF;
+    cursor: pointer;
 }
-
-
 #container {
-  width:90%;
-  padding: 2em;
-  margin:4em auto 4em auto;
-  background-color:#EEE;
+    width: 90%;
+    padding: 2em;
+    margin: 4em auto 4em auto;
+    background-color: #33BBDD;
+}
+#button {
+    text-align: center;
+    margin: 2em auto 0.3em auto;
+
+}
+#picture {
+    text-align: center;
+}
+#Celsius {
+    text-align: center;
+    margin: 1em;
+    color: #fff;
+}
+#Fahrenheit {
+    text-align: center;
+    margin: 1em;
+    color: #fff;
 }
 
-#button {
+#center {
+    text-align: center;
+    margin: 0;
+}
+
+#loading {
   text-align:center;
-  margin: 4em;
+  margin: 0;
+}
+
+#toggleButton{
+    background-color: #FFE433;
+    border: none;
+    border-radius: 0.5em;
+    color: #212121;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    cursor: pointer;
+}
+#toggleButton:hover {
+    background-color: #FFC233;
+    cursor: pointer;
 }
