@@ -69,7 +69,7 @@ function apiCall(lat, long) {
         case 960:
         case 961:
         case 962:
-            $("#picture").html("<img src='http://downloadicons.net/sites/default/files/thunder-wear-symbol-23785.png' alt='thunderstorm' />");
+            $("#picture").html("<img src='img/thunder.png' alt='thunderstorm' />");
             break;
         case 300:
         case 301:
@@ -90,7 +90,7 @@ function apiCall(lat, long) {
         case 521:
         case 522:
         case 531:
-            $("#picture").html("<img src='https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/rain.png' alt='rain' />");
+            $("#picture").html("<img src='img/rain.png' alt='rain' />");
             break;
         case 600:
         case 601:
@@ -102,7 +102,7 @@ function apiCall(lat, long) {
         case 620:
         case 621:
         case 622:
-            $("#picture").html("<img src='http://downloadicons.net/sites/default/files/heavy-snow-icon-23780.png' alt='snow' />");
+            $("#picture").html("<img src='img/snow.png' alt='snow' />");
             break;
         case 701:
         case 711:
@@ -111,10 +111,10 @@ function apiCall(lat, long) {
         case 741:
         case 751:
         case 761:
-            $("#picture").html("<img src='http://uxrepo.com/static/icon-sets/meteo/svg/mist.svg' alt='mist' />");
+            $("#picture").html("<img src='img/mist.png' alt='mist' />");
             break;
         case 762:
-            $("#picture").html("<img src='https://d30y9cdsu7xlg0.cloudfront.net/png/1708-200.png' alt='ash' />");
+            $("#picture").html("<img src='img/ash.png' alt='ash' />");
             break;
         case 771:
         case 905:
@@ -126,30 +126,30 @@ function apiCall(lat, long) {
         case 957:
         case 958:
         case 959:
-            $("#picture").html("<img src='https://cdn3.iconfinder.com/data/icons/weather-25/512/Wind-512x512.png' alt='squalls/wind' />");
+            $("#picture").html("<img src='img/wind.png' alt='squalls/wind' />");
             break;
         case 781:
         case 900:
-            $("#picture").html("<img src='https://cdn0.iconfinder.com/data/icons/weather-bold/142/twister-512.png' alt='tornado' />");
+            $("#picture").html("<img src='img/tornado.png' alt='tornado' />");
             break;
         case 800:
         case 952:
-            $("#picture").html("<img src='http://www.fumcfortworth.org/wp-content/uploads/2015/04/sun.png' alt='clear sky' />");
+            $("#picture").html("<img src='img/sunny.png' alt='clear sky' />");
             break;
         case 801:
         case 802:
         case 803:
         case 804:
-            $("#picture").html("<img src='https://cdn3.iconfinder.com/data/icons/minimal-1/110/Cloud-6-512.png' alt='clouds' />");
+            $("#picture").html("<img src='img/cloudy.png' alt='clouds' />");
             break;
         case 903:
-            $("#picture").html("<img src='http://monsterapk.com/wp-content/uploads/2015/09/cold-thumb.png' alt='cold' />");
+            $("#picture").html("<img src='img/cold.png' alt='cold' />");
             break;
         case 904:
-            $("#picture").html("<img src='http://findicons.com/files/icons/2609/weather_icons/80/hot02.png' alt='hot' />");
+            $("#picture").html("<img src='img/hot.png' alt='hot' />");
             break;
         case 906:
-            $("#picture").html("<img src='https://cdn2.iconfinder.com/data/icons/windows-8-metro-style/512/hail.png' alt='hail' />");
+            $("#picture").html("<img src='img/hail.png' alt='hail' />");
             break;
         default:
             $("#picture").html("Your forecast:");
